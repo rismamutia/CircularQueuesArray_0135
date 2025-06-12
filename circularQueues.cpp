@@ -76,6 +76,12 @@ class Queues
     {
         int FRONT_position = FRONT;
         int REAR_position = REAR;
-        
+
+        //cek apakah antrian kosong
+        if (FRONT == -1)
+        {
+            cout << "Queue is empty\n";
+            return;
+        }
     }
 }
