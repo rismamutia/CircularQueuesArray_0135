@@ -52,6 +52,11 @@ class Queues
         if (FRONT == -1)
         {
             cout << "Queue underflow\n";
+            return;
         }
+        cout << "\nThe element deleted from queue is: " << queue_array[FRONT] << "\n";
+
+        //cek jika antrian hanya memiliki satu elemen
+        if (FRONT == REAR)
     }
 }
